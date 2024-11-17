@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Helsinki</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #666;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.main-nav {
+  background-color: #444;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+.main-nav a:hover {
+  color: red;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Kuva Helsingistä <h1>
+</header>
+
+<div class="main-nav">
+  <a href="Untitled-3.html">Alkusivu</a>
+  <a href="second.html">Toinen Sivu</a>
+  <a href="third.html">King Henry</a>
+</div>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Helsinki</a></li>
+      <li><a href="#">Vantaa</a></li>
+      <li><a href="#">Espoo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Tervetuloa tokalle sivulle</h1>
+    <p>Tähän kokeilen laittaa kuvaa.</p>
+    <img src="https://laevapiletid.ee/blog_img/1/image6.jpg" alt="Tässä on helsinki" width="500" height="300">
+    <p>Kuva on erittäin kaunis</p>
+  </article>
+</section>
+
+<footer>
+  <p>Helsinki</p>
+</footer>
+
+</body>
+</html>
